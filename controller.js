@@ -83,7 +83,8 @@ function editar(i){
 
 // FUNÇÃO PARA EXCLUIR NOME DA LISTA
 function excluir(i){
-  // COMENTARIO SOBRE splice
+  // COMENTARIO SOBRE SPLICE 
+  // O método splice() altera o conteúdo de uma lista, adicionando novos elementos enquanto remove elementos antigos.
   dadosLista.splice((i-1), 1);
   document.getElementById('tabela').deleteRow(i);
   document.getElementById('nomeUser').value = "";
